@@ -1,0 +1,347 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	background: #2c2c2c;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contenido
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+/*Imagen principal*/
+
+
+.imgcen
+{
+	background: url(../images/back2.jpg);
+	background-position: center;
+	background-attachment:fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 1500px;
+	flex-grow: 1;
+}
+
+.blur
+{
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 100%;
+	height: 1500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.blogo
+{
+	width:100%;
+	width:1920px;
+	height: 1080px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.logo
+{
+	background: url(../images/Logo.png);
+	background-size: cover;
+	width:1920px;
+	height: 1080px;
+}
+
+
+ /*Navegador*/
+
+
+
+nav
+{
+	width: 100%;
+}
+
+nav ul 
+{
+	list-style: none;
+}
+
+nav ul
+{
+	display: table;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+}
+
+nav ul li
+{
+	display: table-cell;
+}
+
+nav ul li a
+{
+	display: block;
+	padding: 20px;
+	background:#2a9df4;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+	transition: all .7s ease;
+}
+
+nav ul li a:hover
+{
+	background: #2c2c2c;
+	transition: all .7s ease;
+}
+
+.sticky
+{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+
+/*Presentación*/
+
+
+.inicio
+{
+	width: 100%;
+	height: 1000px;
+	background: #fff;
+	padding-top: 60px;
+	display: flex;
+	justify-content: center;
+}
+
+.press
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.titulopress
+{
+	width: 100%;
+	font-size: 100px;
+	font-family: 'Bebas Neue', cursive;
+	text-align: center
+}
+
+.contenidopress
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+/*Posts*/
+
+
+.post
+{
+	width: 100%;
+	height: 1500px;
+	background: #2c2c2c;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.posts
+{
+	background: #fff;
+	width: 700px;
+	height: 500px;
+	border-radius: 20px;
+	top:16px;
+}
+
+.titulop
+{
+	width: 700px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.tituloin
+{
+	width: 100%;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.contenidop
+{
+	width: 700px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.textoin
+{
+	width: 95%;
+	text-align: center;
+}
+
+.postimg
+{
+	width: 700px;
+	height: 230px;
+	display: flex;
+	justify-content: center;
+}
+
+
+.img-1
+{
+	background: url(../images/twitch.png);
+	background-size: cover;
+	background-position: center;
+	width: 200px;
+	height: 200px;
+}
+
+.img-2
+{
+	background: url(../images/discord.png);
+	background-size: cover;
+	background-position: center;
+	width: 230px;
+	height: 230px;
+}
+
+.img-3
+{
+	background: url(../images/youtube.png);
+	background-size: cover;
+	background-position: center;
+	width: 230px;
+	height: 230px;
+}
+
+.img-4
+{
+	
+}
+
+.img-5
+{
+	
+}
+
+.img-6
+{
+	
+}
+
+.enlace
+{
+	width:700px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.botonin
+{
+	width: 600px;
+	height: 20px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 20px;
+	background:#2a9df4;
+	text-decoration:none;
+	color: #fff;
+	transition: all .7s ease;
+}
+
+.botonin:hover
+{
+	background: #03254c;
+	transition: all .7s ease;
+}
+
+
+/*Footer*/
+
+
+.fooba
+{
+	background: url(../images/back3.jpg);
+	width:100%;
+	height: 600px;
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+
+/* Medias */
+
+@media(max-width: 2114px)
+{
+	.post
+	{
+		height: 2100px;
+	}
+}
+
+
+@media (max-width: 1950px){
+	
+	.imgcen
+	{
+		height: 1100px;
+	}
+
+	.blur
+	{
+		height: 1100px;
+	}
+
+	.logo
+	{
+		width: 1080px;
+		height: 567px;
+	}
+
+}
+
+@media (max-width: 1100px){
+	.logo
+	{
+		width: 720px;
+		height: 378px;
+	}
+}
+
+
+
+
+
